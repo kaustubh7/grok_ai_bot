@@ -23,7 +23,7 @@ app.post('/api/validate', async (req, res) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer xai-r5kcquPB5brUO8UF4pU8iqgRk8oiMywA2HvlENUMzgDjkowjQK5lS1rYpM874BtkIcfSP3NFHhBaTrBR' // Hardcoded API key
+                'Authorization': 'Bearer ' // Hardcoded API key
             },
             body: JSON.stringify({
                 messages: [
